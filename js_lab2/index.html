@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Лабораторная работа 2</title>
+</head>
+<body>
+  <h1>Лабораторная работа 2</h1>
+  <h2>Asynchronous & Advanced JS</h2>
+  <p>
+    При загрузке страницы появляется счетчик открытий страницы.
+  </p>
+  <hr>
+  <h2>Задания 2-4. Загрузка картинок</h2>
+  <p>Нажмите кнопку и введите 5 ссылок на картинки.</p>
+  <button onclick="loadImagesInOrderPromise()">
+    Задание 2: с сохранением порядка, Promise
+  </button>
+  <button onclick="loadImagesWithoutOrderPromise()">
+    Задание 3: без сохранения порядка, Promise
+  </button>
+  <button onclick="loadImagesInOrderAsync()">
+    Задание 4: с сохранением порядка, async/await
+  </button>
+  <button onclick="loadImagesWithoutOrderAsync()">
+    Задание 4: без сохранения порядка, async/await
+  </button>
+  <h3>Результат загрузки картинок:</h3>
+  <div id="imagesResult"></div>
+  <hr>
+  <h2>Задание 5. Проверка IP-адресов</h2>
+  <p>Нажмите кнопку и введите 5 IP-адресов.</p>
+  <button onclick="checkIpAddresses()">
+    Проверить IP-адреса
+  </button>
+  <h3>Результат проверки IP:</h3>
+  <div id="ipResult"></div>
+  <script src="script.js"></script>
+</body>
+</html>
