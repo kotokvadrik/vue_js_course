@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue Clicker – задания 1-2</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@3/dist/vue.global.js"></script>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #e9ecef;
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            width: 300px;
+        }
+        .counter {
+            font-size: 4rem;
+            font-weight: bold;
+            margin: 1rem 0;
+            color: #2c3e50;
+        }
+        button {
+            background: #42b983;
+            border: none;
+            color: white;
+            font-size: 1.2rem;
+            padding: 0.8rem 1.5rem;
+            border-radius: 40px;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+        button:hover {
+            background: #2c6b4f;
+            transform: scale(1.02);
+        }
+    </style>
+</head>
+<body>
+<div id="app">
+    <div class="card">
+        <h2>🖱️ Кликер</h2>
+        <div class="counter">{{ count }}</div>
+        <button @click="increment">➕ Нажми меня</button>
+    </div>
+</div>
+
+<script>
+    if (typeof Vue === 'undefined') {
+        alert('Vue не загрузился.');
+    } else {
+        const { createApp } = Vue;
+        createApp({
+            data() {
+                return {
+                    count: 0
+                };
+            },
+            methods: {
+                increment() {
+                    this.count++;
+                }
+            }
+        }).mount('#app');
+    }
+</script>
+</body>
+</html>
