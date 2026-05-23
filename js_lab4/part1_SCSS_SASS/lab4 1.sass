@@ -1,0 +1,69 @@
+// 2
+.numbers-container
+  display: flex
+  flex-wrap: wrap
+  gap: 10px
+  padding: 20px
+  max-width: 900px
+  margin: 0 auto
+
+@for $n from 1 through 100
+  .num-#{$n}
+    display: inline-block
+    width: 45px
+    height: 45px
+    line-height: 45px
+    text-align: center
+    background-color: rgb($n, 256 - $n, 0)
+    color: white
+    border-radius: 6px
+    font-weight: bold
+    font-size: 14px
+
+// 3
+$bg-color: #ddd
+$purple: purple
+
+=center-block($width: 800px)
+  width: $width
+  margin: 0 auto
+  text-align: center
+
+=block-style($padding: 10px)
+  background: $bg-color
+  padding: $padding
+
+.layout
+  +center-block
+
+  .logo
+    font-size: 26px
+    margin: 20px 0
+
+  .nav
+    +block-style
+
+    a
+      margin: 0 10px
+      text-decoration: none
+      color: $purple
+
+      &:hover
+        text-decoration: underline
+
+  .block
+    +block-style(40px)
+    margin-top: 15px
+
+  .columns
+    display: flex
+    gap: 10px
+    margin-top: 15px
+
+    .col
+      flex: 1
+      +block-style(40px 0)
+
+  .footer
+    +block-style
+    margin-top: 15px

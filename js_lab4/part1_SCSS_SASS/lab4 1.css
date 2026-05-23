@@ -1,0 +1,1352 @@
+.numbers-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.num-1 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(1, 255, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-2 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(2, 254, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-3 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(3, 253, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-4 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(4, 252, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-5 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(5, 251, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-6 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(6, 250, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-7 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(7, 249, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-8 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(8, 248, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-9 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(9, 247, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-10 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(10, 246, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-11 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(11, 245, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-12 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(12, 244, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-13 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(13, 243, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-14 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(14, 242, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-15 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(15, 241, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-16 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(16, 240, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-17 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(17, 239, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-18 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(18, 238, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-19 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(19, 237, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-20 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(20, 236, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-21 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(21, 235, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-22 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(22, 234, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-23 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(23, 233, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-24 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(24, 232, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-25 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(25, 231, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-26 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(26, 230, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-27 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(27, 229, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-28 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(28, 228, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-29 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(29, 227, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-30 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(30, 226, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-31 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(31, 225, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-32 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(32, 224, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-33 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(33, 223, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-34 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(34, 222, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-35 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(35, 221, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-36 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(36, 220, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-37 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(37, 219, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-38 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(38, 218, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-39 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(39, 217, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-40 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(40, 216, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-41 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(41, 215, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-42 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(42, 214, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-43 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(43, 213, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-44 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(44, 212, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-45 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(45, 211, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-46 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(46, 210, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-47 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(47, 209, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-48 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(48, 208, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-49 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(49, 207, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-50 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(50, 206, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-51 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(51, 205, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-52 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(52, 204, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-53 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(53, 203, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-54 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(54, 202, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-55 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(55, 201, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-56 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(56, 200, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-57 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(57, 199, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-58 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(58, 198, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-59 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(59, 197, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-60 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(60, 196, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-61 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(61, 195, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-62 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(62, 194, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-63 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(63, 193, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-64 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(64, 192, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-65 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(65, 191, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-66 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(66, 190, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-67 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(67, 189, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-68 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(68, 188, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-69 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(69, 187, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-70 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(70, 186, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-71 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(71, 185, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-72 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(72, 184, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-73 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(73, 183, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-74 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(74, 182, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-75 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(75, 181, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-76 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(76, 180, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-77 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(77, 179, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-78 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(78, 178, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-79 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(79, 177, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-80 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(80, 176, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-81 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(81, 175, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-82 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(82, 174, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-83 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(83, 173, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-84 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(84, 172, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-85 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(85, 171, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-86 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(86, 170, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-87 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(87, 169, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-88 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(88, 168, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-89 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(89, 167, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-90 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(90, 166, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-91 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(91, 165, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-92 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(92, 164, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-93 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(93, 163, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-94 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(94, 162, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-95 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(95, 161, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-96 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(96, 160, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-97 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(97, 159, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-98 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(98, 158, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-99 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(99, 157, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.num-100 {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgb(100, 156, 0);
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.layout {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+.layout .logo {
+  font-size: 26px;
+  margin: 20px 0;
+}
+.layout .nav {
+  background: #ddd;
+  padding: 10px;
+}
+.layout .nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: purple;
+}
+.layout .nav a:hover {
+  text-decoration: underline;
+}
+.layout .block {
+  background: #ddd;
+  padding: 40px;
+  margin-top: 15px;
+}
+.layout .columns {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+.layout .columns .col {
+  flex: 1;
+  background: #ddd;
+  padding: 40px 0;
+}
+.layout .footer {
+  background: #ddd;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+/*# sourceMappingURL=lab4%201.css.map */

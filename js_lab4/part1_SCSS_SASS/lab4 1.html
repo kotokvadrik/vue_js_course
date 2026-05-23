@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Задания 2 и 3</title>
+    <link rel="stylesheet" href="lab4 1.css">
+</head>
+<body>
+
+
+<section>
+    <h1>Задание 2</h1>
+    <div class="numbers-container" id="numbers-container"></div>
+</section>
+
+
+<section>
+    <h1>Задание 3</h1>
+    <div class="layout">
+        <div class="logo">Логотип</div>
+        <div class="nav">
+            <a href="#">Домой</a>
+            <a href="#">Товары</a>
+            <a href="#">Услуги</a>
+            <a href="#">О нас</a>
+            <a href="#">Контакты</a>
+        </div>
+        <div class="block">Характеристика</div>
+        <div class="columns">
+            <div class="col">Колонка 1</div>
+            <div class="col">Колонка 2</div>
+            <div class="col">Колонка 3</div>
+        </div>
+        <div class="footer">© МЕРНІ 2023</div>
+    </div>
+</section>
+
+<script>
+    const container = document.getElementById('numbers-container');
+    for (let i = 1; i <= 100; i++) {
+        const span = document.createElement('span');
+        span.className = `num-${i}`;
+        span.textContent = i;
+        container.appendChild(span);
+    }
+</script>
+</body>
+</html>
