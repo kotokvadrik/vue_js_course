@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab3 1</title>
+    <style>
+        * {
+            user-select: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        .task-card {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .task-title {
+            font-size: 20px;
+            font-weight: bold;
+            color: #2196F3;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #2196F3;
+            padding-bottom: 5px;
+        }
+
+        .store-content {
+            background: white;
+            padding: 15px;
+        }
+
+        .store-content a {
+            color: #2196F3;
+            text-decoration: none;
+        }
+
+        .store-content a:hover {
+            text-decoration: underline;
+        }
+
+        .formula {
+            font-family: monospace;
+            font-size: 18px;
+            background: #f0f0f0;
+            padding: 5px 10px;
+            border-radius: 4px;
+            display: inline-block;
+        }
+
+        .price-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .price-table td {
+            border: 2px solid black;
+            padding: 8px;
+        }
+
+        .old-price {
+            text-decoration: line-through;
+        }
+
+        .new-price {
+            font-weight: bold;
+        }
+
+        /* Кликер */
+        .clicker-area {
+            text-align: center;
+        }
+
+        .clicker-counter {
+            font-size: 48px;
+            font-weight: bold;
+            color: #2196F3;
+            margin: 20px 0;
+        }
+
+        .clicker-button {
+            font-size: 24px;
+            padding: 15px 40px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.1s, background-color 0.3s;
+        }
+
+        .clicker-button:active {
+            transform: scale(0.95);
+        }
+
+        .clicker-stats {
+            margin-top: 15px;
+            color: #666;
+            font-size: 14px;
+        }
+
+        .calculator {
+            background: #eee;
+            padding: 10px;
+            max-width: 220px;
+            margin: 0 auto;
+        }
+
+        .calculator-screen {
+            width: 100%;
+            height: 40px;
+            margin-bottom: 10px;
+            text-align: right;
+            font-size: 18px;
+        }
+
+        .calculator-buttons {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 5px;
+        }
+
+        .calc-btn {
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        .calc-btn.number {
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        .calc-btn.operator {
+            background-color: #ff9800;
+            color: white;
+        }
+
+        .calc-btn.clear {
+            background-color: #f44336;
+            color: white;
+        }
+
+        .calc-btn.equals {
+            background-color: #4CAF50;
+            color: white;
+            grid-column: span 2;
+        }
+
+        .calc-btn.bracket {
+            background-color: #9c27b0;
+            color: white;
+        }
+
+        .calc-btn:hover {
+            opacity: 0.8;
+        }
+
+        button {
+            cursor: pointer;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+<h1>Лабораторная работа</h1>
+
+<div class="task-card" id="task1">
+    <div class="task-title">Задание 1</div>
+    <div class="store-content">
+        <h2>Добро пожаловать!</h2>
+
+        <p>
+            <em>Приветствуем</em> <u>вас</u>
+            <strong>в нашем</strong>
+            <a href="http://example.com/" target="_blank" style="color: #2196F3; text-decoration: underline;">
+                магазине
+            </a>!
+        </p>
+
+        <p>
+            &lt;h1&gt;Теорема Пифагора&lt;/h1&gt;:
+            c<sup>2</sup> = a<sup>2</sup> + b<sup>2</sup>
+        </p>
+
+        <table class="price-table">
+            <tr>
+                <td colspan="2"><strong>Информация</strong></td>
+            </tr>
+            <tr>
+                <td>Старая цена: <span class="old-price">1000 ₽</span></td>
+                <td>Новая цена: <span class="new-price">500 ₽</span></td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<div id="dynamic-content"></div>
+
+
+<script src="lab3 1.js"></script>
+</body>
+</html>
